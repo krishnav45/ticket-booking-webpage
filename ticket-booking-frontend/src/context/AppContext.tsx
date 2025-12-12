@@ -30,7 +30,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const fetchShows = async () => {
     try {
-      const res = await fetch("http://localhost:5000/admin/shows");
+      const res = await fetch("https://ticket-booking-webpage.onrender.com/admin/shows");
       const data = await res.json();
       setShows(data);
     } catch (err) {
@@ -40,7 +40,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const fetchBookings = async () => {
     try {
-      const res = await fetch("http://localhost:5000/booking");
+      const res = await fetch("https://ticket-booking-webpage.onrender.com/booking");
       const data = await res.json();
       setBookings(data);
     } catch (err) {
