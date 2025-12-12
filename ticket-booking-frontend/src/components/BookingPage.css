@@ -1,0 +1,57 @@
+.booking-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.legend {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.legend .seat {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.legend .available { background-color: lightblue; }
+.legend .selected { background-color: green; }
+.legend .booked { background-color: gray; }
+
+.seat-grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.book-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #ff3e6c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: center;
+}
+
+.book-btn:hover {
+  background-color: #e6325c;
+}

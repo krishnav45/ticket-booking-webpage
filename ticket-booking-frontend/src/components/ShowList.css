@@ -1,0 +1,81 @@
+.showlist-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.show-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.show-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.show-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.show-image {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.show-info h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.show-info p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.book-now-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #ff3e6c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-now-btn:hover {
+  background-color: #e6325c;
+}
+
+.banner {
+  background: linear-gradient(90deg, #ff3e6c, #ff758c);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.banner p {
+  margin: 8px 0 0;
+  font-size: 16px;
+}
