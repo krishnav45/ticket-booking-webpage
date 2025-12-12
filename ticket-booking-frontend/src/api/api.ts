@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://ticket-booking-webpage.onrender.com";
 
 export const createShow = async (name: string, start_time: string, total_seats: number) => {
   const res = await fetch(`${BASE_URL}/admin/create-show`, {
